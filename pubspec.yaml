@@ -1,0 +1,45 @@
+name: test_app
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+
+  assets:
+    - assets/images/moon1.jpg
+    - assets/images/moon.jpg
+    - assets/images/moon2.jpg
+    - assets/images/moon3.jpg
+    - assets/images/moon4.jpg
+    - assets/fonts/bolota-bold.ttf
+    - assets/fonts/Roboto-ThinItalic.ttf
+    - assets/fonts/RobotoCondensed-BoldItalic.ttf
+
+  fonts:
+    - family: RobotoCondensed
+      fonts:
+        - asset: assets/fonts/RobotoCondensed-BoldItalic.ttf
+
+    - family: RobotoThin
+      fonts:
+        - asset: assets/fonts/Roboto-ThinItalic.ttf
+
+    - family: Bolota
+      fonts:
+        - asset: assets/fonts/bolota-bold.ttf
